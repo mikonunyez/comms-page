@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
     <link rel="stylesheet" href="public/css/tailwind.css">
+
+    <!-- custom fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
     <title>Miko's Commissions</title>
 </head>
 
@@ -14,8 +22,17 @@
     }
 </style>
 
-<body>
-    <div id="notif" class="w-full text-center bg-red-500 text-white p-1 transition-transform duration-500 transform -translate-y-full shadow">! work in progress !</div>
+<body class="bg-peach">
+    <div id="notif" class="w-full text-center bg-red-500 text-white font-roboto p-1 transition-transform duration-500 transform -translate-y-full shadow">! work in progress !</div>
+
+    <div id="header" class="flex flex-col items-center">
+        <img src="public/img/avatar.jpg" alt="prof pic" class="rounded-full h-32 m-10">
+        <p class="w-60 font-roboto">
+            Hi! I’m Miko, I’m a gym jock and computer nerd. Welcome to my commissions page!
+            <br><br>
+            I currently accept the following
+        </p>
+    </div>
 
     <script defer src="public/js/notif.js"></script>
 </body>
